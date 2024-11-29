@@ -161,3 +161,8 @@ td {
 	from, to { border-color: transparent }
 	50% { border-color: #b5e853; }
 }  
+
+.credit {
+	margin-top: 20px;
+	text-align: center;
+}

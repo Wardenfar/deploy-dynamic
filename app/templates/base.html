@@ -5,10 +5,14 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>{{ title }}</title>
 		<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
-		<link rel="shortcut icon" href="{{ url_for('static', filename='img/favicon.ico') }}" type="image/x-icon">
+		<link rel="shortcut icon" href="{{ url_for('static', filename='img/favicon.svg') }}" type="image/x-icon">
 	</head>
 	<body>
 		{% block main %}
 		{% endblock %}
+
+		<div class="credit">
+			Powered by the awesome project : <a target="_blank" href="https://github.com/HeroCTF/deploy-dynamic">HeroCTF/dynamic-deploy</a> !
+		</div>
 	</body>
 </html>
